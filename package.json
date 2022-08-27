@@ -1,0 +1,13 @@
+{
+  "name": "solvedProblems",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sami Ullah <sami.naazar1526@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.1"
+  }
+}

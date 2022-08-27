@@ -1,0 +1,35 @@
+Arguments: 
+  /Users/samiullah/.nvm/versions/node/v16.16.0/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js test
+
+PATH: 
+  /Users/samiullah/.asdf/shims:/usr/local/opt/asdf/libexec/bin:/Users/samiullah/.nvm/versions/node/v16.16.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/samiullah/.nvm/versions/node/v16.16.0/bin:/Applications/Postgres.app/Contents/Versions/14/bin:/Applications/Postgres.app/Contents/Versions/14/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOSPC: no space left on device, mkdir '/var/folders/gk/vl_bl1zs61z3qj8g206b8qpr0000gn/T/yarn--1661595683112-0.11011168714718478'
+
+npm manifest: 
+  {
+    "name": "solvedProblems",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Sami Ullah <sami.naazar1526@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "test": "jest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
