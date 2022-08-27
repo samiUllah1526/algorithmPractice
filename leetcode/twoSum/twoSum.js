@@ -27,26 +27,8 @@ const twoSumRandomArray = (numbers, equalTo) => {
     if (tracker[complement] || tracker[complement] == 0) return [complementIndex, i];
     tracker[num] = i;
 
-
-    console.log({
-      num,
-      complement,
-      complementIndex,
-      tracker
-    })
-
   }
 
 }
-// const numbers = [4,5,2,8,1] ==> (1,2)7
-// const numbers = [4,5,2,8,1] ==> (0,2)12
-
-
-
-const log = twoSumRandomArray([2, 7, 11, 15], 9)
-console.log({ log })
-
-
-
 
 module.exports = { twoSumOfSortedArray, twoSumRandomArray };

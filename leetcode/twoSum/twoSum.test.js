@@ -1,8 +1,6 @@
 const { twoSumOfSortedArray, twoSumRandomArray } = require('./twoSum');
 
 
-
-
 test('Two sum for sorted array', () => {
   expect(twoSumOfSortedArray([1, 2, 4, 5, 8], 7)).toStrictEqual([1, 3]);
   expect(twoSumOfSortedArray([1, 2, 4, 5, 8], 12)).toStrictEqual([2, 4]);
