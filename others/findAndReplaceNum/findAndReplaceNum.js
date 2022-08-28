@@ -25,8 +25,8 @@ const func = (number) => {
     console.log({ number })
 }
 
-func(12345) // logs => 12345
-func(012345) // logs => 5349
+//func(12345) // logs => 12345
+//func(012345) // logs => 5349
 
 /*
 func(012345) // logs => 5349 
