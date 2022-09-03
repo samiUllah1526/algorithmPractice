@@ -16,7 +16,6 @@ const lengthOfLongestSubstring = (s) => {
 
         } else {
             let tempString = s.slice(substrStartIndex, i);
-            console.log("tempString==>", tempString)
             if (tempString.length > longestStringLength) {
                 longestString = tempString;
                 longestStringLength = tempString.length;
@@ -26,11 +25,9 @@ const lengthOfLongestSubstring = (s) => {
             lookUp = { [char]: 1 };
             substrStartIndex = i;
         }
-        console.log("\nEach==>", { charOfInteration: char, lookUp, i, substrStartIndex, s, longestString })
 
     }
     const len = longestString.length;
-    console.log("\nEND==>", { longestString, len})
     return len;
 }
 
@@ -40,12 +37,8 @@ const lengthOfLongestSubstring = (s) => {
 // let s = "pwwke";
 // let s = "pwpwpwk";
 // let s = 'bbbbb'
-let s = '  '
-const result = lengthOfLongestSubstring(s);
-console.log({ result });
-
-
-
-
+// // let s = '  '
+// const result = lengthOfLongestSubstring(s);
+// console.log({ result });
 
 module.exports = { lengthOfLongestSubstring };
