@@ -1,6 +1,5 @@
 const  {lengthOfLongestSubstring}  = require('./')
-// s = "abcabcbb"
-// Output: 3
+// const  lengthOfLongestSubstring  = require('./help')
 
 describe("Find the length of longest unique chracters substring", () => {
 
@@ -45,6 +44,11 @@ describe("Find the length of longest unique chracters substring", () => {
 
     it("For unique characters at the tail", () => {
         expect(lengthOfLongestSubstring("aab")).toBe(2);
+    })
+
+
+    it("Leetcode test case", () => {
+        expect(lengthOfLongestSubstring("tmmzuxt")).toBe(5);
     })
 
 })
