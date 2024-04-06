@@ -7,10 +7,13 @@ const twoSumOfSortedArray = (numbers, equalTo) => {
 
     const numbersSum = numbers[leftIndex] + numbers[rightIndex];
 
-    if (equalTo == (numbersSum)) return [leftIndex, rightIndex]
+    if (equalTo == (numbersSum)) break;
+    // if (equalTo == (numbersSum)) return [leftIndex, rightIndex]
     if (numbersSum > equalTo) rightIndex--;
     else leftIndex++
   }
+
+  return [leftIndex, rightIndex]
 }
 
 
