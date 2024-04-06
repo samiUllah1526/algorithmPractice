@@ -11,9 +11,20 @@ const shuffleArray = (array) => {
 
 let originalArray = [1, 2, 3];
 // let array = [{id:1}, {id:2}, {id:3}];
-const shuffled = shuffleArray(array)
+const shuffled = shuffleArray(originalArray)
 
 console.log({
     shuffled,
     originalArray
 })
+
+// function shuffleArray(arr) {
+//     const list = [...arr].sort(() => Math.random() - 0.5 )
+//     return list
+// }
+// let originalArray = [1, 2, 3];
+// const shuffled = shuffleArray(originalArray)
+
+// console.log({
+//     shuffled
+// })
