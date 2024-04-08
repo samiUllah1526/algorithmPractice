@@ -28,3 +28,7 @@ console.log({
 // console.log({
 //     shuffled
 // })
+
+function genrateRandomNumber(min, max) {
+    return min + (Math.random() * (max - min + 1))
+}
